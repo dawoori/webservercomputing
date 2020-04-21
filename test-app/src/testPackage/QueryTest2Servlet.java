@@ -23,4 +23,4 @@ public class QueryTest2Servlet extends HttpServlet {
 		out.println("</body></html>");
 		out.close();
 	}
-}
+} 

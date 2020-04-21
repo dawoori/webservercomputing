@@ -19,11 +19,11 @@
   <!-- Use the URL http://hostName/appName/test2 for
        testPackage.TestServlet -->
   <servlet>
-    <servlet-name>Test</servlet-name>
-    <servlet-class>testPackage.TestServlet</servlet-class>
+    <servlet-name>hello</servlet-name>
+    <servlet-class>testPackage.HelloWorld</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Test</servlet-name>
-    <url-pattern>/test2</url-pattern>
+    <servlet-name>hello</servlet-name>
+    <url-pattern>/hello2</url-pattern>
   </servlet-mapping>
 </web-app>
