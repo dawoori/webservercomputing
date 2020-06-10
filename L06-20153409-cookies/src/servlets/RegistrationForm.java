@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/registration")
+@WebServlet("/registration-form")
 public class RegistrationForm extends HttpServlet {
     
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
